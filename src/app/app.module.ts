@@ -66,7 +66,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
         component: HomeComponent
       },
       {
-        path: 'followers/:username',
+        path: 'followers/:id/:username',  //Helps SEO
         component: GithubProfileComponent
       },
       {
@@ -74,7 +74,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
         component: GithubFollowersComponent
       },
       {
-        path: 'profile/:username',
+        path: 'profile/:id',
         component: GithubProfileComponent
       },
       {
